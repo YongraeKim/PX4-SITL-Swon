@@ -109,6 +109,7 @@ private:
   static constexpr int gps_buffer_size_max = 1000;
   std::queue<sensor_msgs::msgs::SITLGps> gps_delay_buffer;
 
+
   ignition::math::Vector3d gps_bias;
   ignition::math::Vector3d noise_gps_pos;
   ignition::math::Vector3d noise_gps_vel;
