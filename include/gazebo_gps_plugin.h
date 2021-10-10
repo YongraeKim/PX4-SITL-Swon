@@ -92,7 +92,7 @@ private:
   // The home position can be specified using the environment variables:
   // PX4_HOME_LAT, PX4_HOME_LON, and PX4_HOME_ALT
 
-  // Zurich Irchel Park
+  // Doosan Tower
   double lat_home = 37.568667 * M_PI / 180.0;  // rad
   double lon_home = 127.008665 * M_PI / 180.0;   // rad
   double alt_home = 21.0;                     // meters
