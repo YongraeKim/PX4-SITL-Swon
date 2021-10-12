@@ -40,13 +40,14 @@
     </physics>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>-10 0 6 0 0.3 0</pose>
-        <!-- <view_controller>orbit</view_controller>
-        <projection_type>perspective</projection_type>
+        <!--<pose>-10 0 6 0 0.3 0</pose>-->
         <track_visual>
           <name>iris</name>
+          <static>true</static>
+          <xyz>5 0 5</xyz>
+          <inherit_yaw>false</inherit_yaw>
           <use_model_frame>1</use_model_frame>
-        </track_visual> -->
+        </track_visual>
       </camera>
     </gui>
   </world>

@@ -33,5 +33,17 @@
       <real_time_update_rate>250</real_time_update_rate>
       <magnetic_field>6.0e-6 2.3e-5 -4.2e-5</magnetic_field>
     </physics>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <!--<pose>-10 0 6 0 0.3 0</pose>-->
+        <track_visual>
+          <name>iris</name>
+          <static>true</static>
+          <xyz>5 0 5</xyz>
+          <inherit_yaw>false</inherit_yaw>
+          <use_model_frame>1</use_model_frame>
+        </track_visual>
+      </camera>
+    </gui>
   </world>
 </sdf>
